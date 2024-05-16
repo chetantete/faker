@@ -26,7 +26,8 @@ GEM
     rainbow (3.0.0)
     rake (13.0.6)
     regexp_parser (2.1.1)
-    rexml (3.2.5)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
     rubocop (1.18.3)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
@@ -44,11 +45,12 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
+    strscan (3.1.0)
     test-unit (3.4.4)
       power_assert
     timecop (0.9.4)
     unicode-display_width (2.0.0)
-    yard (0.9.26)
+    yard (0.9.36)
 
 PLATFORMS
   ruby
@@ -62,7 +64,7 @@ DEPENDENCIES
   simplecov (= 0.17.1, < 0.18)
   test-unit (= 3.4.4)
   timecop (= 0.9.4)
-  yard (= 0.9.26)
+  yard (= 0.9.36)
 
 BUNDLED WITH
    2.1.4
